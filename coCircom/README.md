@@ -112,7 +112,9 @@ P2 $ co-circom generate-proof groth16 --witness out/witness.wtns.2.shared --zkey
 
 ### 2.8. Verify proof
 
+Use any command line belows
+
 ```
-co-circom verify groth16 --proof proof.0.json --vk verification_key.json --public-input public_input.json --curve BN254
-snarkjs groth16 verify verification_key.json public_input.json proof.0.json
+$ co-circom verify groth16 --proof proof.0.json --vk verification_key.json --public-input public_input.json --curve BN254
+$ snarkjs groth16 verify verification_key.json public_input.json proof.0.json
 ```
