@@ -1,0 +1,11 @@
+first_circuit_js
+*.r1cs
+*.sym
+*.zkey
+*.wtns
+verification_key.json
+proof.json
+public.json
+
+node_modules
+powersOfTau28_hez_final_15.ptau
