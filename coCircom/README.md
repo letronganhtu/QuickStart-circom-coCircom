@@ -60,7 +60,7 @@ Prepare an input file `inputs.json` to define value in a circuit
 
 ```
 mkdir out
-co-circom split-input --circuit multiplier2.circom --input input.json --protocol REP3 --curve BN254 --out-dir out/
+co-circom split-input --circuit circuits/multiplication/multiplier2.circom --input circuits/multiplication/inputs.json --protocol REP3 --curve BN254 --out-dir out/
 ```
 
 ### 2.6. Witness Extension
